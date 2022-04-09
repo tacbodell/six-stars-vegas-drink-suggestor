@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background: rgba(24,24,24,1);
+  color: white;
+  font-family: 'roboto', sans-serif;
+}
+img{
+  display: block;
+  width: 30%;
+  margin-inline: auto
+}
+.container {
+  width: 90%;
+  margin-inline: auto;
+  text-align: center;
+}
+.container-small {
+  width: max(50%, 40rem);
+  border: solid 1px grey;
+  text-align: center;
+  padding-inline: 3rem;
+}
+.container-left {
+  width: 70%;
+  float: left;
+  text-align: center;
+  padding-inline: 3%;
+}
+.container-right {
+  width: 30%;
+  float: right;
+  text-align: center;
+  padding-inline: 3%;
+}
+.divider{
+  width: 50%;
+  border: solid 1px grey;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.alcoholSection {
+  opacity: 0;
+  visibility: hidden;
+}
+.show {
+  opacity: 1;
+  visibility: visible;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
