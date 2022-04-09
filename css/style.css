@@ -38,6 +38,9 @@ input,button {
   border: solid 3px grey;
   margin-top: 1rem;
 }
+button {
+  cursor: pointer;
+}
 li {
   list-style: none;
   font-size: 2rem;
